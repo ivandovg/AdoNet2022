@@ -8,7 +8,7 @@ using System.Data.SqlClient;
 
 namespace AdoNet1
 {
-    class Program
+    class ProgramAdo1
     {
         static void Main(string[] args)
         {

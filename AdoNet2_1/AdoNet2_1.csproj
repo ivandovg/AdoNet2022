@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{98772A4A-848C-41C1-BFB7-FE1A44C7CDDC}</ProjectGuid>
+    <ProjectGuid>{F4A7B31C-7A0C-4DFF-BC1B-ABB68F97F916}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AdoNet1</RootNamespace>
-    <AssemblyName>AdoNet1</AssemblyName>
+    <RootNamespace>AdoNet2_1</RootNamespace>
+    <AssemblyName>AdoNet2_1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -43,11 +44,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ProgramAdo1.cs" />
+    <Compile Include="ProgramAdo2_1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dbo.Procedure-AddPublisher.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
