@@ -60,7 +60,7 @@ namespace AdoNet3_2
             // 
             this.edAddress.Location = new System.Drawing.Point(63, 6);
             this.edAddress.Name = "edAddress";
-            this.edAddress.Size = new System.Drawing.Size(379, 20);
+            this.edAddress.Size = new System.Drawing.Size(324, 20);
             this.edAddress.TabIndex = 1;
             // 
             // groupBox1
@@ -70,7 +70,7 @@ namespace AdoNet3_2
             this.groupBox1.Controls.Add(this.rbWindows);
             this.groupBox1.Location = new System.Drawing.Point(15, 32);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(427, 188);
+            this.groupBox1.Size = new System.Drawing.Size(401, 188);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Authentication";
@@ -107,7 +107,7 @@ namespace AdoNet3_2
             this.grUserPassword.Enabled = false;
             this.grUserPassword.Location = new System.Drawing.Point(38, 74);
             this.grUserPassword.Name = "grUserPassword";
-            this.grUserPassword.Size = new System.Drawing.Size(369, 94);
+            this.grUserPassword.Size = new System.Drawing.Size(349, 94);
             this.grUserPassword.TabIndex = 2;
             this.grUserPassword.TabStop = false;
             // 
@@ -133,7 +133,7 @@ namespace AdoNet3_2
             // 
             this.edLogin.Location = new System.Drawing.Point(79, 27);
             this.edLogin.Name = "edLogin";
-            this.edLogin.Size = new System.Drawing.Size(270, 20);
+            this.edLogin.Size = new System.Drawing.Size(255, 20);
             this.edLogin.TabIndex = 2;
             // 
             // edPassword
@@ -141,14 +141,14 @@ namespace AdoNet3_2
             this.edPassword.Location = new System.Drawing.Point(79, 59);
             this.edPassword.Name = "edPassword";
             this.edPassword.PasswordChar = '*';
-            this.edPassword.Size = new System.Drawing.Size(270, 20);
+            this.edPassword.Size = new System.Drawing.Size(255, 20);
             this.edPassword.TabIndex = 3;
             // 
             // edDatabase
             // 
             this.edDatabase.Location = new System.Drawing.Point(76, 226);
             this.edDatabase.Name = "edDatabase";
-            this.edDatabase.Size = new System.Drawing.Size(366, 20);
+            this.edDatabase.Size = new System.Drawing.Size(311, 20);
             this.edDatabase.TabIndex = 4;
             // 
             // label4
@@ -163,7 +163,7 @@ namespace AdoNet3_2
             // btnOk
             // 
             this.btnOk.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnOk.Location = new System.Drawing.Point(118, 262);
+            this.btnOk.Location = new System.Drawing.Point(108, 265);
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(75, 23);
             this.btnOk.TabIndex = 5;
@@ -174,7 +174,7 @@ namespace AdoNet3_2
             // Cancel
             // 
             this.Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.Cancel.Location = new System.Drawing.Point(252, 262);
+            this.Cancel.Location = new System.Drawing.Point(242, 265);
             this.Cancel.Name = "Cancel";
             this.Cancel.Size = new System.Drawing.Size(75, 23);
             this.Cancel.TabIndex = 6;
@@ -187,7 +187,7 @@ namespace AdoNet3_2
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.Cancel;
-            this.ClientSize = new System.Drawing.Size(454, 300);
+            this.ClientSize = new System.Drawing.Size(426, 300);
             this.Controls.Add(this.Cancel);
             this.Controls.Add(this.btnOk);
             this.Controls.Add(this.edDatabase);
