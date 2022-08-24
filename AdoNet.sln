@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNet4_1", "AdoNet4_1\AdoN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNet4_2", "AdoNet4_2\AdoNet4_2.csproj", "{600AA927-E0C7-431F-BB07-8B9187BE508B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNet5_1", "AdoNet5_1\AdoNet5_1.csproj", "{4F873B0F-6A55-46A6-B0BA-19713CB1F787}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNet5_2", "AdoNet5_2\AdoNet5_2.csproj", "{A5A7FCA0-0551-478F-94ED-71E5F5C414A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{600AA927-E0C7-431F-BB07-8B9187BE508B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{600AA927-E0C7-431F-BB07-8B9187BE508B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{600AA927-E0C7-431F-BB07-8B9187BE508B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F873B0F-6A55-46A6-B0BA-19713CB1F787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F873B0F-6A55-46A6-B0BA-19713CB1F787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F873B0F-6A55-46A6-B0BA-19713CB1F787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F873B0F-6A55-46A6-B0BA-19713CB1F787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5A7FCA0-0551-478F-94ED-71E5F5C414A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5A7FCA0-0551-478F-94ED-71E5F5C414A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5A7FCA0-0551-478F-94ED-71E5F5C414A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5A7FCA0-0551-478F-94ED-71E5F5C414A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
