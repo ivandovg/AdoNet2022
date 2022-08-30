@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNet5_2", "AdoNet5_2\AdoN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNet6_1", "AdoNet6_1\AdoNet6_1.csproj", "{69E49C77-F460-43CF-B25B-3242CAC1BDBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNet7_1", "AdoNet7_1\AdoNet7_1.csproj", "{F30A7ADA-6411-480E-9C07-3B78CAD259CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{69E49C77-F460-43CF-B25B-3242CAC1BDBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69E49C77-F460-43CF-B25B-3242CAC1BDBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69E49C77-F460-43CF-B25B-3242CAC1BDBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F30A7ADA-6411-480E-9C07-3B78CAD259CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F30A7ADA-6411-480E-9C07-3B78CAD259CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F30A7ADA-6411-480E-9C07-3B78CAD259CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F30A7ADA-6411-480E-9C07-3B78CAD259CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
