@@ -76,6 +76,14 @@ namespace AdoNet9_2
                             .IsRequired().HasColumnName("Place")
                             .HasColumnType("int");
 
+            Property(p => p.CompetitionId)
+                            .IsRequired().HasColumnName("CompetitionId")
+                            .HasColumnType("int");
+
+            Property(p => p.PaticipantId)
+                            .IsRequired().HasColumnName("PaticipantId")
+                            .HasColumnType("int");
+
             ToTable("Results", "dbo");
         }
     }

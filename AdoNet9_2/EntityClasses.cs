@@ -30,9 +30,9 @@ namespace AdoNet9_2
     {
         public int Id { get; set; }
         public int Place { get; set; }
-        //[Required]
+        public int CompetitionId { get; set; }
+        public int PaticipantId { get; set; }
         public virtual Competition Competition { get; set; }
-        //[Required]
         public virtual Paticipant Paticipant { get; set; }
     }
 
@@ -46,10 +46,10 @@ namespace AdoNet9_2
             modelBuilder.Configurations.Add(new CompetitionMap());
             modelBuilder.Configurations.Add(new ResultMap());
 
-            modelBuilder.Entity<Result>()
-                .HasRequired(p => p.Competition)
-                .WithRequiredDependent()
-                .Map(m => m.MapKey("CompetitionId"));
+            //modelBuilder.Entity<Result>()
+            //    .HasRequired(p => p.Competition)
+            //    .WithMany(r=>r.Results)
+            //    .Map(m => m.MapKey("CompetitionId"));
 
             //base.OnModelCreating(modelBuilder);
         }
