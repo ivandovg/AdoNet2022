@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNet7_1", "AdoNet7_1\AdoN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNet8_1", "AdoNet8_1\AdoNet8_1.csproj", "{4ED16CD7-FD80-4C84-84BC-B978233262B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNet9_1", "AdoNet9_1\AdoNet9_1.csproj", "{B9E2992D-928C-459C-9ED1-69B4912C6791}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNet9_2", "AdoNet9_2\AdoNet9_2.csproj", "{F10E531E-34CC-433E-9377-9EFD0EBE2DFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{4ED16CD7-FD80-4C84-84BC-B978233262B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4ED16CD7-FD80-4C84-84BC-B978233262B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4ED16CD7-FD80-4C84-84BC-B978233262B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9E2992D-928C-459C-9ED1-69B4912C6791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9E2992D-928C-459C-9ED1-69B4912C6791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9E2992D-928C-459C-9ED1-69B4912C6791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9E2992D-928C-459C-9ED1-69B4912C6791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F10E531E-34CC-433E-9377-9EFD0EBE2DFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F10E531E-34CC-433E-9377-9EFD0EBE2DFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F10E531E-34CC-433E-9377-9EFD0EBE2DFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F10E531E-34CC-433E-9377-9EFD0EBE2DFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
