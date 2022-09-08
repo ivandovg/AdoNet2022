@@ -22,7 +22,9 @@ namespace AdoNet11_1
             //Test4Delete(connection);
             //Test5Delete(connection);
             //Test6ReadJoin(connection);
-            Test7StoredProcedure(connection);
+            //Test7StoredProcedure(connection);
+            //Test8SPDeleteAuthor(connection);
+            Test9SPReadTable(connection);
 
 
             Console.WriteLine("\nPress any key...");
@@ -199,6 +201,41 @@ namespace AdoNet11_1
                 foreach (var t in pubResult)
                 {
                     Console.WriteLine(t);
+                }
+            }
+        }
+        private static void Test8SPDeleteAuthor(IDbConnection connection)
+        {
+            Test2Read(connection);
+            connection.ConnectionString = connectionStr;
+            using (connection)
+            {
+                connection.Open();
+                Console.WriteLine("Delete Author by Id");
+
+                string sql = "DeleteAuthor";
+                Console.Write("Author Id: ");
+                int id = int.Parse(Console.ReadLine());
+                var result = connection.Execute(sql, new { id }, commandType: CommandType.StoredProcedure);
+                Console.WriteLine($"Return result: {result}");
+            }
+            Test2Read(connection);
+        }
+
+
+        private static void Test9SPReadTable(IDbConnection connection)
+        {
+            connection.ConnectionString = connectionStr;
+            using (connection)
+            {
+                connection.Open();
+                Console.WriteLine("Author and Books");
+
+                string sql = "GetAuthorBook";
+                var result = connection.Query(sql, commandType: CommandType.StoredProcedure);
+                foreach (var item in result)
+                {
+                    Console.WriteLine(item);
                 }
             }
         }
