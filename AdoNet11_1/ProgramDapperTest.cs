@@ -9,7 +9,7 @@ using System.Data;
 
 namespace AdoNet11_1
 {
-    class Program
+    class ProgramDapperTest
     {
         private const string connectionStr = @"Data Source=DESKTOP-ALEU41I\SQLEXPRESS;Initial Catalog=BooksDb;Integrated Security=True";
         static void Main(string[] args)
@@ -221,8 +221,6 @@ namespace AdoNet11_1
             }
             Test2Read(connection);
         }
-
-
         private static void Test9SPReadTable(IDbConnection connection)
         {
             connection.ConnectionString = connectionStr;

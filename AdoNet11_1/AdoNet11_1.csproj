@@ -48,12 +48,15 @@
   <ItemGroup>
     <Compile Include="Author.cs" />
     <Compile Include="Contact.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="ProgramDapperTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="stored_procedure.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
