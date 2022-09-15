@@ -26,6 +26,7 @@ namespace AdoNet12_1
             db = new PharmacyEntities();
             InitializeComponent();
             dgvSuppliers.ItemsSource = db.Suppliers.ToList();
+            lsbSuppliers.ItemsSource = db.Suppliers.ToList();
         }
 
         private void btnSave_Click(object sender, RoutedEventArgs e)
@@ -46,6 +47,7 @@ namespace AdoNet12_1
 
             db.SaveChanges();
             dgvSuppliers.ItemsSource = db.Suppliers.ToList();
+            lsbSuppliers.ItemsSource = db.Suppliers.ToList();
         }
     }
 }

@@ -141,6 +141,7 @@
       <LastGenOutput>PharmacyModel.Context.cs</LastGenOutput>
       <DependentUpon>PharmacyModel.edmx</DependentUpon>
     </Content>
+    <Content Include="PharmacyModel.edmx.sql" />
     <Content Include="PharmacyModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>PharmacyModel.edmx</DependentUpon>

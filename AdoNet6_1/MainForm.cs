@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.Entity;
+using System.Collections;
 
 namespace AdoNet6_1
 {
@@ -24,8 +25,16 @@ namespace AdoNet6_1
 
             dgvActors.DataSource = MoviesDb.Actors.ToList();
         }
-
-        private void btnDelete_Click(object sender, EventArgs e)
+        private string PrintStr<T>(IDbSet<T> src) where T: class
+        {
+            StringBuilder builder = new StringBuilder();
+            foreach (var i in src)
+            {
+                builder.AppendLine(i.ToString());
+            }
+            return builder.ToString();
+        }
+    private void btnDelete_Click(object sender, EventArgs e)
         {
             if (dgvActors.SelectedRows.Count == 0)
                 return;
